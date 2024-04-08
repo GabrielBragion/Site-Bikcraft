@@ -1,0 +1,52 @@
+.intro-sobre{
+  background: url("../img/bg-sobre.jpg") no-repeat center/cover;
+  margin-top: 92px;
+  width: 100%;
+  height: 160px;
+  text-align: center;
+  color: #fff;
+}
+.intro-sobre h1{
+  margin-top: 30px;
+}
+.intro-sobre p{
+  padding-top: 10px;
+}
+.conteudo-sobre h3{
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 60px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.conteudo-sobre h3::after{
+content: "";
+display: block;
+width: 60px;
+height: 3px;
+background-color: #000;
+margin: 10px auto;
+position: absolute;
+left: 0;
+}
+.conteudo-sobre p{
+  padding: 20px 0;
+  width: 480px;
+  line-height: 20px;
+  font-size: 18px;
+}
+.conteudo-sobre ul{
+  padding: 10px 0;
+}
+.conteudo-sobre ul li{
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 30px;
+}
+.foto-equipe{
+  padding: 20px 0;
+}
+.qualidade-sobre{
+  padding-bottom: 60px;
+}
